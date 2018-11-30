@@ -32,7 +32,6 @@ class ViewController: UIViewController {
             
         }
     }
-    
     var themes = ConcentrationThemes()
     lazy var emojiChoices = themes.getRandomThemeEmojis()
     var emoji = [Int:String]()
